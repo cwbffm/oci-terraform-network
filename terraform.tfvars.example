@@ -1,0 +1,10 @@
+# Exemplo com identificador fictício. Substitua pelo compartment do seu laboratório.
+compartment_ocid = "ocid1.compartment.oc1..example"
+region           = "sa-saopaulo-1"
+project_name     = "portfolio"
+environment      = "lab"
+vcn_cidr         = "10.20.0.0/16"
+
+freeform_tags = {
+  Purpose = "Portfolio"
+}
